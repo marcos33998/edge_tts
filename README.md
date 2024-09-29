@@ -1,4 +1,5 @@
 # text-generation-webui-edge-tts
+#I am not the original author of this fork, the original fork was deleted and I'm here to share this amazing extension, [original url](https://github.com/Unorthodox-oddball/text-generation-webui-edge-tts)
 A simple extension for the [text-generation-webui by oobabooga](https://github.com/oobabooga/text-generation-webui) that uses [edge_tts](https://github.com/rany2/edge-tts) for audio output. It also supports post-processing using [RVC](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI).
 
 ![text-generation-webui-edge-tts](/image.jpg)
@@ -6,14 +7,15 @@ A simple extension for the [text-generation-webui by oobabooga](https://github.c
 ## How to install
 Assuming you already have the text-generation-webui set up (min version [1.6.1](https://github.com/oobabooga/text-generation-webui/releases/tag/1.6.1)):
 
-1. Activate the conda environment using `conda activate textgen`
+1. Activate the conda environment using `cmd_windows.bat`
 2. Enter the  `text-generation-webui/extensions/` directory and clone this repository
 ```
 cd text-generation-webui/extensions/
-git clone https://github.com/BuffMcBigHuge/text-generation-webui-edge-tts.git edge_tts/
+git clone https://github.com/Unorthodox-oddball/text-generation-webui-edge-tts.git
 ```
 3. Install the requirements
 ```
+pip install fairseq-0.12.3.1-cp311-cp311-win_amd64.whl
 pip install -r edge_tts/requirements.txt
 ```
 4. Add `--extensions edge_tts` to your startup script <br/> <b>or</b> <br/> enable it through the `Session` tab in the webui
