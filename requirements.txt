@@ -1,0 +1,11 @@
+ipython
+num2words
+omegaconf
+pydub
+PyYAML
+edge-tts
+faiss_cpu==1.7.4
+librosa==0.9.1
+praat-parselmouth==0.4.3
+pyworld==0.3.4
+torchcrepe==0.0.20
