@@ -1,5 +1,5 @@
 # text-generation-webui-edge-tts
-## I am not the original author of this fork, the original fork was deleted and I'm here to share this amazing extension, [original url](https://github.com/Unorthodox-oddball/text-generation-webui-edge-tts)
+## I am not the original author of this fork, the original fork was deleted and I'm here to share this amazing extension, [original fork's url](https://github.com/Unorthodox-oddball/text-generation-webui-edge-tts)
 I encountered some trouble while installing the original fork, but no worries, I fixed them! just keep reading :)
 
 A simple extension for the [text-generation-webui by oobabooga](https://github.com/oobabooga/text-generation-webui) that uses [edge_tts](https://github.com/rany2/edge-tts) for audio output. It also supports post-processing using [RVC](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI).
