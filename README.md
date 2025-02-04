@@ -14,11 +14,12 @@ Assuming you already have the text-generation-webui set up (min version [1.6.1](
 ```
 cd text-generation-webui/extensions/
 git clone https://github.com/marcos33998/edge_tts.git
+cd edge_tts
 ```
 3. Install the requirements (I remember there was a bug so I have provided the fairseq's wheel use it if you encounter problems...)
 ```
 pip install fairseq-0.12.3.1-cp311-cp311-win_amd64.whl
-pip install -r edge_tts/requirements.txt
+pip install -r requirements.txt
 ```
 4. Add `--extensions edge_tts` to your startup script <br/> <b>or</b> <br/> enable it through the `Session` tab in the webui
 5. Download the required RVC models and place them in the `extensions/edge_tts/models` folder
